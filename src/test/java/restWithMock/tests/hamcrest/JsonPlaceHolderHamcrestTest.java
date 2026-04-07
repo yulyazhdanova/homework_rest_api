@@ -1,18 +1,14 @@
-package tests.hamcrest;
+package restWithMock.tests.hamcrest;
 
-import models.Post;
-import models.User;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
-import specs.Specifications;
-
-import java.util.List;
+import restWithMock.models.Post;
+import restWithMock.specs.Specifications;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class JsonPlaceHolderHamcrestTest {

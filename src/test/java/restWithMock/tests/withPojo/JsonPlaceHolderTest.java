@@ -1,10 +1,15 @@
-package tests.withPojo;
+package restWithMock.tests.withPojo;
 
-import models.Post;
-import models.User;
-import org.junit.jupiter.api.*;
-import specs.Specifications;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+import restWithMock.models.Post;
+import restWithMock.models.User;
+import restWithMock.specs.Specifications;
+
 import java.util.List;
+
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
 

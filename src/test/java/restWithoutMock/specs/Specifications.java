@@ -1,4 +1,4 @@
-package specs;
+package restWithoutMock.specs;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;

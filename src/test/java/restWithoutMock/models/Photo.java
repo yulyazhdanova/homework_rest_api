@@ -1,4 +1,4 @@
-package models;
+package restWithoutMock.models;
 
 public class Photo {
     public int albumId;

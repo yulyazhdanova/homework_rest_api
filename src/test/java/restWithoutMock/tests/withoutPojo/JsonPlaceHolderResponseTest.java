@@ -1,8 +1,8 @@
-package tests.withoutPojo;
+package restWithoutMock.tests.withoutPojo;
 
 import io.restassured.response.Response;
 import org.junit.jupiter.api.*;
-import specs.Specifications;
+import restWithoutMock.specs.Specifications;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;

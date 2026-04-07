@@ -1,4 +1,4 @@
-package models;
+package restWithMock.models;
 
 public class Geo{
     public String lat;

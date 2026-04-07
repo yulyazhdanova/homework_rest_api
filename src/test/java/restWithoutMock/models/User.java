@@ -1,4 +1,4 @@
-package models;
+package restWithoutMock.models;
 
 public class User{
     public int id;

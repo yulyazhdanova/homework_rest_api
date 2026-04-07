@@ -1,4 +1,4 @@
-package models;
+package restWithMock.models;
 
 public class Comment {
     public int postId;
